@@ -1,0 +1,52 @@
+{
+	"fileVersion": 15,
+	"versionSuffix": "",
+	"title": "GaiminArena",
+	"description": "In our Gaimin Fortnite Team Deathmatch, players are divided into teams to compete in fast-paced battles, aiming to eliminate opponents while working strategically with teammates. The objective is to earn the most eliminations within a set time limit or to reach a certain number of kills, fostering collaboration and quick reflexes among team members.\r\n",
+	"keyArt": "Resources/Icon128.png",
+	"docsUrl": "",
+	"kind": "Island",
+	"compatibilityVersion": "31.00",
+	"editorPermissions": [],
+	"epicApp": "",
+	"sortPriority": 0,
+	"featureSet": "",
+	"plugins": [
+		{
+			"name": "GaiminArena",
+			"bIsRoot": true,
+			"bIsPublic": false
+		}
+	],
+	"dataSets":
+	{
+		"matchmaking":
+		{
+			"maxPlayers": 16,
+			"maxTeamCount": 2,
+			"maxTeamSize": 16,
+			"maxSocialPartySize": 16,
+			"allowJoinInProgress": true,
+			"allowSquadFillOption": false,
+			"islandQueuePrivacy": "Unrestricted",
+			"version": 1
+		},
+		"experimental":
+		{
+			"sceneGraph":
+			{
+				"bIsSceneGraphSystemAllowed": false
+			},
+			"version": 1
+		}
+	},
+	"bindings":
+	{
+		"projectId": "14c46c36-4b9a-67da-8605-318e9fa134f3",
+		"projectVersePath": "",
+		"modules":
+		{
+			"GaiminArena": "c95bafa7-48dc-b12a-05eb-d882faca41b3"
+		}
+	}
+}
